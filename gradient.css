@@ -11,7 +11,6 @@ body {
 .mtk7,
 .mtk9,
 .mtk10,
-.mtk14,
 .mtk15,
 .mtk16,
 .mtk17,
@@ -57,7 +56,7 @@ body {
   background-color: #22213e;
 }
 .monaco-grid-view .part .window-title {
-  color: #12ffd3;
+  color: #fff;
 }
 
 .monaco-workbench .activitybar > .content:not(.monaco-menu) > .monaco-action-bar .action-item.checked .active-item-indicator::before {
@@ -84,6 +83,8 @@ body {
 
 .monaco-list-row.selected, .monaco-list-row:hover:not(.selected):not(.focused) {
   border-radius: 10px;
+  outline: none;
+  border: transparent;
 }
 .monaco-list-row.selected {
   background: linear-gradient(to right, #f9d423, #ff4e50);
@@ -93,7 +94,7 @@ body {
 }
 
 .monaco-icon-label > .monaco-icon-label-container > .monaco-icon-name-container > .label-name {
-  color: #12ffd3;
+  color: #fff;
 }
 
 .menubar .menubar-menu-title:hover,

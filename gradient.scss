@@ -43,7 +43,6 @@ body {
 .mtk7,
 .mtk9,
 .mtk10,
-.mtk14,
 .mtk15,
 .mtk16,
 .mtk17,
@@ -91,7 +90,7 @@ body {
       background-color: $black1;
     }
     .window-title {
-      color: $green4;
+      color: $white;
     }
   }
 }
@@ -163,6 +162,8 @@ body {
   &.selected,
   &:hover:not(.selected):not(.focused) {
     border-radius: 10px;
+    outline: none;
+    border: transparent;
   }
   &.selected {
     background: linear-gradient(to right, $yellow6, $red1);
@@ -176,7 +177,7 @@ body {
   > .monaco-icon-label-container {
     > .monaco-icon-name-container {
       > .label-name {
-        color: $green4;
+        color: $white;
       }
     }
   }
